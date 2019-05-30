@@ -1,4 +1,4 @@
-# Simple Speedtest Shell. Used with Debian base servers.
+# Simple Speedtest Shell. Use this on Debian Based Servers
 
 This simple script will clone the speedtest-cli git repo and run a test to a nominated server.
 
