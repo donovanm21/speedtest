@@ -1,9 +1,13 @@
-# Simple Speedtest Shell.
+# Simple Speedtest Shell. Used with Debian base servers.
 
-Clone the speedtest-cli and run to nominated server.
+This simple script will clone the speedtest-cli git repo and run a test to a nominated server.
 
-Use ./speedtest.py --list to see all available servers.
+# List all available servers
 
-Show Cape Town based server only
+./speedtest.py --list to see all available servers.
+
+# Show Cape Town based server only
 
 ./speedtest.py --list | grep -E "Cape Town"
+
+Update the ID after the --server option in the speedtest.sh file with the server ID you wish to use.
