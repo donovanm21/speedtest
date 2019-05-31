@@ -8,10 +8,10 @@ chmod +x speedtest.sh && ./speedtest.sh
 
 # List all available servers
 
-./speedtest.py --list to see all available servers.
+cd /home/speedtest-cli && ./speedtest.py --list to see all available servers.
 
 # Show Cape Town based server only
 
-./speedtest.py --list | grep -E "Cape Town"
+cd /home/speedtest-cli && ./speedtest.py --list | grep -E "Cape Town"
 
 Update the ID after the --server option in the speedtest.sh file with the server ID you wish to use.
