@@ -1,6 +1,10 @@
-# Simple Speedtest Shell. Use this on Debian Based Servers
+# Simple Speedtest Shell. Used with Debian base servers.
 
 This simple script will clone the speedtest-cli git repo and run a test to a nominated server.
+
+# Make shell script executable and run it
+
+chmod +x speedtest.sh && ./speedtest.sh
 
 # List all available servers
 
